@@ -219,6 +219,10 @@ header nav .navbar-nav .nav-item .nav-link:hover {
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+    .section-header .header-content{
+        /* padding-top: 168px; */
+        height: 500px;
+    }
     .section-frequently{
         margin-top: 168px;
         margin-bottom: 168px;
