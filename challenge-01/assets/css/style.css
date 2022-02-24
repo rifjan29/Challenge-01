@@ -29,9 +29,6 @@ h6{
     padding: 10px 20px !important;
 }
 
-.section-header img{
-    width: 100%;
-}
 header nav.navbar.active{
     background-color: var(--background-color);
     /* backdrop-filter: blur(15px); */
@@ -220,7 +217,6 @@ header nav .navbar-nav .nav-item .nav-link:hover {
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .section-header .header-content{
-        /* padding-top: 168px; */
         height: 500px;
     }
     .section-frequently{
@@ -229,7 +225,6 @@ header nav .navbar-nav .nav-item .nav-link:hover {
     } 
     .section-features{
         margin-top: 168px;
-        /* padding-top: 100px; */
         height: max-content;
     }
     .section-testimonial{
